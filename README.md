@@ -1,4 +1,4 @@
-# My_hunter
+# my_hunter
 First game created in CSFML
 
 How to play ?
