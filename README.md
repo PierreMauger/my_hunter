@@ -1,10 +1,10 @@
 # my_hunter
-First game created in CSFML
+First game created in CSFML in a Epitech Project
 
 How to play ?
-  Make
-  ./my_hunter
-  Enjoy shooting the Pidgeys
+- Make
+- ./my_hunter
+- Enjoy shooting the Pidgeys
 
 Help : ./my_hunter -h
 
