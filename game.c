@@ -52,11 +52,13 @@ void init_game(game_t **temp)
 
 void destroy_all(game_t *game)
 {
-    sfRenderWindow_destroy(game->window);
     destroy_entity(game->entity);
     sfSoundBuffer_destroy(game->soundbuffer);
     sfSound_destroy(game->sound);
+    sfSoundBuffer_destroy(game->soundshot);
+    sfSound_destroy(game->sounds);
     sfMusic_pause(game->music);
     sfMusic_stop(game->music);
     sfMusic_destroy(game->music);
+    sfRenderWindow_destroy(game->window);
 }
