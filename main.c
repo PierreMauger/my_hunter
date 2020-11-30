@@ -19,7 +19,7 @@ int main(int argc, char **argv)
 {
     srand(time(NULL));
     if (argc == 2)
-        if (argv[1][0] == '-' || argv[1][1] == 'h') {
+        if (argv[1][0] == '-' && argv[1][1] == 'h') {
             write(1, "a super duckhunt game where you can finally hunt a", 51);
             write(1, "ll the Pidgey you ever dreamed of !\n\nCONTROLS : ", 49);
             write(1, "mouseclick = shoot\n           alt+F4 : close game", 50);
